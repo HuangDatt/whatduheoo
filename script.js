@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const rect = noButton.getBoundingClientRect();
         const width = rect.width;
         const height = rect.height;
-        if (width > 30 && height > 20) {
+        if (width > 30) {
             scale -= 0.5    ;
             noButton.style.transform = `scale(${scale})`;
         } else {
